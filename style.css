@@ -1,0 +1,81 @@
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: "Poppins", sans-serif;
+}
+body {
+       height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;      
+       background: #ae9cff;
+}
+button {
+       border: none;
+       outline: none;
+       background: transparent;
+       cursor: pointer;
+}
+
+
+.search-box {
+       width: 99vmin;
+       padding: 80px 50px;
+       border-radius: 10px;
+       background: #fff;
+       box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.input , .word {
+       display: flex;
+       justify-content: space-between;
+}
+
+
+.input input {
+       width: 70%;
+       padding: 5px;
+       border: none;
+       border-bottom: 2px solid #ae9cff;
+       outline: none;
+}
+
+
+.input button {
+       width: 25%;
+       padding: 15px 0px;
+       background: #ae9cff;
+       color: #fff;
+       border-radius: 5px;
+}
+.input button:active {
+       transform: scale(0.9);
+}
+
+
+
+.output {
+       margin: 20px 0;
+}
+
+
+.output h2 {
+       text-transform: capitalize;
+       font-size: 30px;
+}
+
+.output i {
+       font-size: 20px;
+}
+
+.output .details {
+       font-size: 12px;
+       color: #b3b6da;
+}
+
+.output .paragraph {
+       margin-top: 5px;
+       font-size: 13px;
+       color: initial;
+}
