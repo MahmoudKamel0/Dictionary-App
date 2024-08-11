@@ -41,6 +41,7 @@ function displayDictionary(Dictionary,txt,paragraph,soundWord){
        `
        document.querySelector('.output').innerHTML = box
        
+       // if There is no sound dibbled button
        if (soundWord != 'nothing') {
               sound.setAttribute('src',soundWord)
               document.querySelector('.audio').removeAttribute('disabled')
